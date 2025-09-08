@@ -1,3 +1,10 @@
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#     "flask",
+# ]
+# ///
+
 # Estrutura MVC em Flask
 # Model
 class User:
