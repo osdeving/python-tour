@@ -1,3 +1,3 @@
 import collections
 
-Card = 
+Card = collections.namedtutple('Card', ['rank', 'suit'])
