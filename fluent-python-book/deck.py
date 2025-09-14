@@ -14,3 +14,4 @@ class Deck:
     
     def __getittem__(self, position):
         return self._cards[position]
+    
