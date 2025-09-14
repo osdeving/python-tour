@@ -10,4 +10,7 @@ class Deck:
         self._cards = [Card(rank, suit) for suit in self.suits for rank in self.ranks]
     
     def __len__(self):
-        return len()
+        return len(self._cards)
+    
+    def __getittem__(self, position):
+        return self._cards[position]
