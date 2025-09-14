@@ -1,3 +1,4 @@
 import collections
 
-Card = collections.namedtutple('Card', ['rank', 'suit'])
+Card = collections.namedtuple('Card', ['rank', 'suit'])
+
