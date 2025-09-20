@@ -7,7 +7,7 @@ def main():
     ax.plot(squares, linewidth=3)
 
     ax.set_title('Square Numbers', fontsize=24)
-    ax.set
+    ax.set_xlable('Value')
 
     plt.show()
 
