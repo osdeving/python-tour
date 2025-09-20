@@ -5,7 +5,7 @@ def main():
     squares = [1, 4, 9, 16, 25]
 
     print(plt.style.available)
-    plt.style.use('seaborn-v0_8-colorblind')
+    plt.style.use('Solarize_Light2')
     fig, ax = plt.subplots()
     ax.plot(input_values, squares, linewidth=3)
 
