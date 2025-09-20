@@ -1,11 +1,11 @@
 import matplotlib.pyplot as plt
 
 def main():
-    input_values = [1,2,3,4,5]
+    input_values = [1, 2, 3, 4, 5]
     squares = [1, 4, 9, 16, 25]
 
     fig, ax = plt.subplots()
-    ax.plot(squares, linewidth=3)
+    ax.plot(input_values, squares, linewidth=3)
 
     ax.set_title('Square Numbers', fontsize=24)
     ax.set_xlabel('Value', fontsize=14)
