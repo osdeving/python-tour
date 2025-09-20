@@ -4,7 +4,7 @@ def main():
     squares = [1, 4, 9, 16, 25]
 
     fig, ax = plt.subplots()
-    ax.plot(squares)
+    ax.plot(squares, linewi)
 
     plt.show()
 
