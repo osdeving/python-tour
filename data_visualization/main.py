@@ -5,6 +5,7 @@ def main():
     squares = [1, 4, 9, 16, 25]
 
     print(plt.style.available)
+    plt.
     fig, ax = plt.subplots()
     ax.plot(input_values, squares, linewidth=3)
 
