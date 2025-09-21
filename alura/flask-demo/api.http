@@ -22,5 +22,5 @@ PUT http://localhost:5000/products/42
 Content-Type: application/json
 
 {
-    "teste": "teste_value"
+    "price": "12.46"
 }
