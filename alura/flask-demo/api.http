@@ -1,9 +1,10 @@
+
 GET http://localhost:5000/products
 
+### Insetir um produto
 POST http://localhost:5000/products
 Content-Type: application/json
 
 {
     "teste": "teste_value"
 }
-
