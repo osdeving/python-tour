@@ -1,2 +1,7 @@
 from pydantic import BaseModel
-from typy
+from typying import Optional
+
+class Product(BaseModel):
+    """
+    
+    """
