@@ -12,7 +12,7 @@ Content-Type: application/json
 
 {
     "name": "Computador",
-    "description": "Computador da Xuxa",
+    "description": "PC da Xuxa",
     "price": "1200.49",
     "stock": "1"
 }
