@@ -8,5 +8,9 @@ def login():
 
 
 @bp.route('/products', methods=['GET'])
-def products():
+def get_products():
     return jsonify({"message": "List of products"})
+
+@bp.route('/products/<int:product_id>', methods=['GET'])
+def get_product():
+    
