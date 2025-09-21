@@ -15,3 +15,8 @@ def get_products():
 def get_product_by_id(product_id):
     return jsonify({'message': f"Retorna o produto de id = {product_id}"})
 
+
+@bp.route('/products/<int:product_id>', methods=['GET'])
+def get_product_by_id(product_id):
+    return jsonify({'message': f"Retorna o produto de id = {product_id}"})
+
