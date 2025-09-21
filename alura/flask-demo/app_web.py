@@ -1,5 +1,5 @@
 '''
-
+Exemplo de como usar um servidor diretamente sem frameworks
 '''
 from wsgiref.simple_server import make_server
 from pathlib import Path
