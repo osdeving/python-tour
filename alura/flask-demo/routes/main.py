@@ -1,1 +1,2 @@
-from flask import Blueprint, jsonfy
+from flask import Blueprint, jsonify
+
