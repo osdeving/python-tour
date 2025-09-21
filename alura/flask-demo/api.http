@@ -1,3 +1,4 @@
 GET http://localhost:5000/products
 
-POST http://
+POST http://localhost:5000/products
+C
