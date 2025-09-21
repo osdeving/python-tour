@@ -12,7 +12,8 @@ Content-Type: application/json
 
 {
     "name": "Computador",
-    
+    ""
+    "stock": "1"
 }
 
 ### Alterar um produto
