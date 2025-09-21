@@ -21,4 +21,4 @@ def create_product(product: Product):
 
 @bp.route('/products/<int:product_id>', methods=['PUT'])
 def create_product(product_id):
-    return jsonify({'message': f"Cria o produto {product.name}"})
+    return jsonify({'message': f"Atualiza o produto {product_id}"})
