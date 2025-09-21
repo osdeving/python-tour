@@ -4,5 +4,6 @@ POST http://localhost:5000/products
 Content-Type: application/json
 
 {
-    
+    "teste": "teste_value"
 }
+
