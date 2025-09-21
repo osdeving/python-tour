@@ -19,3 +19,6 @@ def get_product_by_id(product_id):
 def create_product(product: Product):
     return jsonify({'message': f"Cria o produto {product.name}"})
 
+@bp.route('/products', methods=['PUT'])
+def create_product(product: Product):
+    return jsonify({'message': f"Cria o produto {product.name}"})
