@@ -8,4 +8,8 @@ class Product(BaseModel):
 
     name: str
     price: float
-    description: Optiona[str] = 
+    description: Optional[str] = None
+    stock: int
+
+
+
