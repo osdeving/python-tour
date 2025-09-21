@@ -6,6 +6,14 @@ GET http://localhost:5000/products
 GET http://localhost:5000/products/42
 
 
+### Inserir um produto
+PUT http://localhost:5000/products/42
+Content-Type: application/json
+
+{
+    "teste": "teste_value"
+}
+
 ### Alterar um produto
 PUT http://localhost:5000/products/42
 Content-Type: application/json
