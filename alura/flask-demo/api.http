@@ -1,4 +1,8 @@
 GET http://localhost:5000/products
 
 POST http://localhost:5000/products
-C
+Content-Type: application/json
+
+{
+    
+}
