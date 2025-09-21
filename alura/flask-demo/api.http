@@ -12,7 +12,7 @@ Content-Type: application/json
 
 {
     "name": "Computador",
-    ""
+    "description": "Computador da Xuxa",
     "stock": "1"
 }
 
