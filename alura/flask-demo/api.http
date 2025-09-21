@@ -7,7 +7,7 @@ GET http://localhost:5000/products/42
 
 
 ### Inserir um produto
-PUT http://localhost:5000/products
+POST http://localhost:5000/products
 Content-Type: application/json
 
 {
