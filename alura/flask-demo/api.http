@@ -1,6 +1,11 @@
 ### Obter uma lista de produtos
 GET http://localhost:5000/products
 
+
+### Obter uma lista de produtos
+GET http://localhost:5000/products/42
+
+
 ### Insetir um produto
 POST http://localhost:5000/products
 Content-Type: application/json
