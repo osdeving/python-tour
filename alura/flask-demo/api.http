@@ -1,4 +1,4 @@
-
+### Obter uma lista de produtos
 GET http://localhost:5000/products
 
 ### Insetir um produto
